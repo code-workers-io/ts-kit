@@ -1,4 +1,8 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "ts-kit": "packages/ts-kit",
+    "ts-kit-types": "packages/ts-kit/types",
+    "ts-kit-utils": "packages/ts-kit/utils"
+  }
 }
