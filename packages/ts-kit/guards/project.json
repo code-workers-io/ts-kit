@@ -1,0 +1,32 @@
+{
+  "root": "packages/ts-kit/guards",
+  "sourceRoot": "packages/ts-kit/guards/src",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/ts-kit/guards",
+        "main": "packages/ts-kit/guards/src/index.ts",
+        "tsConfig": "packages/ts-kit/guards/tsconfig.lib.json",
+        "assets": ["packages/ts-kit/guards/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/ts-kit/guards/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/ts-kit/guards"],
+      "options": {
+        "jestConfig": "packages/ts-kit/guards/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
