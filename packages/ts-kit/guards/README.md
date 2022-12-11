@@ -5,11 +5,8 @@ data types like: object, array, number, boolean and string.
 
 ## Get started
 
-To get started simply add the library to your project by `npm install @mikelgo/ts-guards` and simply
-use the utility functions where you need it. E.g.:
-
 ```typescript
-import { isString } from "@mikelgo/ts-guards";
+import { isString } from "@code-workers.io/ts-kit/guards";
 
 // somewhere in your code
 function heavyComputation(arg: any) {

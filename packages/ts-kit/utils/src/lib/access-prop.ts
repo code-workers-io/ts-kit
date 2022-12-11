@@ -3,6 +3,18 @@
  *
  * @param arg
  * @param prop
+ *
+ * @example
+ * const obj = {
+ *  a: {
+ *   b: {
+ *    c: 1,
+ *    d: 2,
+ *      },
+ *    },
+ *  };
+ *
+ * accessProp(obj, 'a.b.c'); // 1
  */
 export function accessProp<T>(arg: T, prop: string): any {
   const separator = '.';

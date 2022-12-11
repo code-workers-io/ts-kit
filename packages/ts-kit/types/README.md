@@ -2,16 +2,10 @@
 
 A collection of TypeScript utitlty types to make your life easier.
 
-## Installation
-
-```bash
-npm i @code-workers.io/ts-types
-``` 
-
 ## Usage
 
 ```typescript
-import {KeyOf} from '@code-workers.io/ts-types';
+import {KeyOf} from '@code-workers.io/ts-kit/types';
 
 type MyType = {
   foo: string;

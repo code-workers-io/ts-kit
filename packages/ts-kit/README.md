@@ -1,11 +1,13 @@
-# ts-kit
+# @code-workers.io/ts-kit
 
-This library was generated with [Nx](https://nx.dev).
+## Installation
 
-## Building
+```bash
+npm i @code-workers.io/ts-kit
+``` 
 
-Run `nx build ts-kit` to build the library.
+## Packages
 
-## Running unit tests
-
-Run `nx test ts-kit` to execute the unit tests via [Jest](https://jestjs.io).
+- [@code-workers.io/ts-kit/guards](./guards/README.md)
+- [@code-workers.io/ts-kit/types](./types/README.md)
+- [@code-workers.io/ts-kit/utils](./utils/README.md)
