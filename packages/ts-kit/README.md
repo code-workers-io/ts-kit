@@ -1,5 +1,7 @@
 # @code-workers.io/ts-kit
 
+A collection of TypeScript utilities and types.
+
 ## Installation
 
 ```bash

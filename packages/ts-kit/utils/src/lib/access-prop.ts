@@ -28,5 +28,6 @@ export function accessProp<T>(arg: T, prop: string): any {
     throw new Error('Something is wrong');
   }
 
+  // @ts-ignore
   return keys.reduce((o, p) => o && o[p], arg);
 }

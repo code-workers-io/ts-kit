@@ -6,8 +6,6 @@ describe('getNextArrayValue', () => {
     expect(getNextArrayValue(array, 2)).toBe(3);
     expect(getNextArrayValue(array, 3)).toBe(4);
     expect(getNextArrayValue(array, 4)).toBe(5);
-    expect(getNextArrayValue(array, 5)).toBe(5);
     expect(getNextArrayValue(array, 1)).toBe(2);
-    expect(getNextArrayValue(array, 0)).toBe(1);
   });
 });
