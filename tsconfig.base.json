@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@code-workers.io/ts-kit": ["packages/ts-kit/src/index.ts"],
+      "@ts-kit/ts-kit/guards": ["packages/ts-kit/guards/src/index.ts"],
       "@ts-kit/ts-kit/types": ["packages/ts-kit/types/src/index.ts"],
       "@ts-kit/ts-kit/utils": ["packages/ts-kit/utils/src/index.ts"]
     }

@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "ts-kit": "packages/ts-kit",
+    "ts-kit-guards": "packages/ts-kit/guards",
     "ts-kit-types": "packages/ts-kit/types",
     "ts-kit-utils": "packages/ts-kit/utils"
   }
