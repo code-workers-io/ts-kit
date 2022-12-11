@@ -59,4 +59,10 @@ type Join<T extends string[], D extends string> = T extends []
     : never
   : string;
 
+/**
+ * Get the path to a property in a type separated by dots.
+ * @example
+ * type Foo = { a: { b: { c: number } } };
+ * type Path = Paths<Foo>; // 'a.b.c'
+ */
 export type Paths<T> = Join<Extract<DottablePaths<T>, string[]>, '.'>;

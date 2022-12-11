@@ -1,3 +1,10 @@
+/**
+ * Get the path to a property in a type separated by dots.
+ *
+ * @example
+ * type Foo = { a: { b: { c: number } } };
+ * type Path = PropPath<Foo, number>; // 'a.b.c'
+ */
 export type PropPath<T, V> = T extends V
   ? ''
   : {
