@@ -1,11 +1,18 @@
-# ts-kit-utils
+# @code-workers.io/ts-kit/utils
 
-This library was generated with [Nx](https://nx.dev).
+This package provides some utility functions for TypeScript.
 
-## Building
+## Usage
+  
+  ```typescript
+  import { getNextArrayValue } from "@code-workers.io/ts-kit/utils";
 
-Run `nx build ts-kit-utils` to build the library.
+  const array = [1, 2, 3];
+  const nextValue = getNextArrayValue(array, 2); // 3
+  ```
 
-## Running unit tests
+## Included functions
 
-Run `nx test ts-kit-utils` to execute the unit tests via [Jest](https://jestjs.io).
+- `getNextArrayValue`: get the next value of an array
+- `getPreviousArrayValue`: get the previous value of an array
+- `accessProp`: access a property of an object
